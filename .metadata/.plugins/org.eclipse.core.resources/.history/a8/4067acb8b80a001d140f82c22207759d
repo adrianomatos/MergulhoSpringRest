@@ -1,0 +1,16 @@
+package com.algaworks.algalog.api.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController					//Tornar classe visível
+public class ClienteController {
+
+	@GetMapping("/clientes")	//Mapeamento
+	public List<Cliente> listar() {
+		
+	}
+	
+}
